@@ -1,0 +1,48 @@
+.header {
+  background-color: #fbfbfb;
+
+  .headerContainer {
+    max-width: 1392px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    ul {
+      list-style: none;
+      display: flex;
+      align-items: center;
+
+      li {
+        a {
+          text-decoration: none;
+          color: #74768f;
+        }
+      }
+
+      li:not(:last-child) {
+        margin-right: 23px;
+      }
+    }
+
+    .signIn {
+      width: 100px;
+      height: 56px;
+      background-color: #0a157a;
+      border: none;
+      margin-right: 16px;
+      border-radius: 8px;
+      color: #fbfbfb;
+    }
+
+    .signUp {
+      width: 108px;
+      height: 56px;
+      background-color: #fbfbfb;
+      border: 1px solid #0a157a;
+      border-radius: 8px;
+      color: #0a157a;
+    }
+  }
+}
